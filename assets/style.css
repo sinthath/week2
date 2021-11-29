@@ -1,9 +1,22 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
-    background: grey;
+    justify-content: space-between; 
+    background: #3a3a3d;
+}
+
+.nav-bar h1 {
+    background: lightblue;
+    color: #3a3a3d;
+}
+
+.nav-right {
+    display: flex;
+    justify-content:space-around;
+    color: lightblue;
+    text-decoration: underline;
 }
