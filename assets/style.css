@@ -84,10 +84,30 @@ header nav ul li a {
 
 .app1 {
     border: 3px solid var(--secondary-color);
+    background-image: url(./img/forest.jpg);
 }
+
+
 .app2 {
     border: 3px solid var(--secondary-color);
+    background-image: url();
 }
+
+.app3 {
+    border: 3px solid var(--secondary-color);
+    background-image: url();
+}
+
+.app4 {
+    border: 3px solid var(--secondary-color);
+    background-image: url();
+}
+
+.app5 {
+    border: 3px solid var(--secondary-color);
+    background-image: url();
+}
+
 .contact-me {
     display: flex;
     justify-content: space-around;
