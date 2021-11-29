@@ -34,7 +34,6 @@ header nav ul li a {
 
 .sub-title {
     display: flex;
-    flex-wrap: wrap;
     background-image: url(./img/forest.jpg);
     background-size: cover;
 }
@@ -42,5 +41,68 @@ header nav ul li a {
 .sub-title h2 {
     background: var(--secondary-color);
     color: var(--primary-color);
-    align-items: stretch;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 24px;
+    border-right: 3px solid;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+    flex-basis: 50px;
+    padding-right: 20px;
+    
+}
+  .primary-border {
+    border-color: var(--primary-color);
+}
+  
+.secondary-border {
+    border-color: var(--tertiary-color);
+}
+  /* SECTION TITLE STYLES END */
+.about-me {
+    display: flex;
+    justify-content: space-around;
+}
+.about-me h1 {
+    text-align: left;
+}
+
+.work {
+    display: flex;
+}
+
+.work h1 {
+    text-align: left;
+}
+
+.app1 {
+    border: 3px solid var(--secondary-color);
+}
+.app2 {
+    border: 3px solid var(--secondary-color);
+}
+.contact-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me footer ul li a {
+    padding: 10px 15px;
+    font-size: 1.25vw;
+    color: var(--primary-color);
 }
